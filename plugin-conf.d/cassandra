@@ -1,0 +1,27 @@
+[cassandra_*]
+env.url service:jmx:rmi:///jndi/rmi://127.0.0.1:7199/jmxrmi
+env.query *:*
+
+[cassandra_elasticinbox_keycache]
+env.config cassandra_elasticinbox_keycache
+
+[cassandra_elasticinbox_rowcache]
+env.config cassandra_elasticinbox_rowcache
+
+[cassandra_elasticinbox_latency]
+env.config cassandra_elasticinbox_latency
+
+[cassandra_elasticinbox_size]
+env.config cassandra_elasticinbox_size
+
+[cassandra_elasticinbox_sstable]
+env.config cassandra_elasticinbox_sstable
+
+[cassandra_elasticinbox_ops]
+env.config cassandra_elasticinbox_ops
+
+[cassandra_elasticinbox_pendingtasks]
+env.config cassandra_elasticinbox_pendingtasks
+
+[cassandra_jvm_memory]
+env.config cassandra_jvm_memory

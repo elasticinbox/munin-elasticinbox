@@ -1,0 +1,18 @@
+[elasticinbox_*]
+env.url service:jmx:rmi:///jndi/rmi://127.0.0.1:9099/jmxrmi
+env.query *:*
+
+[elasticinbox_lmtp_delivery]
+env.config elasticinbox_lmtp_delivery
+
+[elasticinbox_rest_conn]
+env.config elasticinbox_rest_conn
+
+[elasticinbox_rest_duration]
+env.config elasticinbox_rest_duration
+
+[elasticinbox_hector_conn]
+env.config elasticinbox_hector_conn
+
+[elasticinbox_jvm_memory]
+env.config elasticinbox_jvm_memory

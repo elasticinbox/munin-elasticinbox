@@ -1,0 +1,23 @@
+graph_title Cassandra JVM Process Memory
+graph_vlabel Bytes
+graph_category Cassandra
+
+java_lang_memory_nonheapmemoryusage_committed.label non-heap committed
+java_lang_memory_nonheapmemoryusage_committed.draw LINE1
+java_lang_memory_nonheapmemoryusage_max.label non-heap max
+java_lang_memory_nonheapmemoryusage_max.draw LINE1
+java_lang_memory_nonheapmemoryusage_used.label non-heap used
+java_lang_memory_nonheapmemoryusage_used.draw LINE1
+
+java_lang_memory_heapmemoryusage_committed.label heap committed
+java_lang_memory_heapmemoryusage_committed.draw LINE1
+java_lang_memory_heapmemoryusage_max.label heap max
+java_lang_memory_heapmemoryusage_max.draw LINE1
+java_lang_memory_heapmemoryusage_used.label heap used
+java_lang_memory_heapmemoryusage_used.draw LINE1
+
+java_lang_operatingsystem_freephysicalmemorysize.label os free mem
+java_lang_operatingsystem_freephysicalmemorysize.graph no
+
+java_lang_operatingsystem_committedvirtualmemorysize.label os vmem committed
+java_lang_operatingsystem_committedvirtualmemorysize.graph no
