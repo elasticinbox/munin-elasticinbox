@@ -1,5 +1,5 @@
 graph_title ElasticInbox REST Connection Count
-graph_vlabel Count
+graph_vlabel conn/${graph_period}
 graph_category ElasticInbox
 
 org_eclipse_jetty_server_nio_selectchannelconnector_0_connections.label accepted connections

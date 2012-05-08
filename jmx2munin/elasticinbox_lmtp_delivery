@@ -1,5 +1,5 @@
 graph_title ElasticInbox LMTP Delivery Status
-graph_vlabel Count
+graph_vlabel mails/${graph_period}
 graph_category ElasticInbox
 
 speed4j_elasticinbox_lmtp_delivery_success_count.label success

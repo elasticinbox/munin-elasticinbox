@@ -1,5 +1,5 @@
 graph_title ElasticInbox Hector Operations
-graph_vlabel Count
+graph_vlabel ops/${graph_period} write (-) / read (+)
 graph_category ElasticInbox
 
 speed4j_elasticinbox_hector_read_success_count.label read success
