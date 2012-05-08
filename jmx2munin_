@@ -37,7 +37,8 @@ cat "$CONFIG"
 fi
 
 JAR="$JMX2MUNIN_DIR/jmx2munin.jar"
-CACHED="/tmp/jmx2munin"
+URLSUM=`echo -n "$url" | cksum | cut -d ' ' -f 1`
+CACHED="/tmp/jmx2munin.$URLSUM"
 
 if test ! -f $CACHED || test `find "$CACHED" -mmin +2`; then
 
