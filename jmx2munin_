@@ -59,7 +59,7 @@ echo "Could not find any *.label lines in $CONFIG"
 fi
 
 for ATTRIBUTE in $ATTRIBUTES; do
-grep $ATTRIBUTE $CACHED
+grep "$ATTRIBUTE\." $CACHED
 done
 
 exit 0
