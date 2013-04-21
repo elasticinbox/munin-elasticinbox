@@ -2,11 +2,11 @@
 env.url service:jmx:rmi:///jndi/rmi://127.0.0.1:7199/jmxrmi
 env.query *:*
 
-[cassandra_elasticinbox_keycache]
-env.config cassandra_elasticinbox_keycache
+[cassandra_cache_hitrate]
+env.config cassandra_cache_hitrate
 
-[cassandra_elasticinbox_rowcache]
-env.config cassandra_elasticinbox_rowcache
+[cassandra_cache_size]
+env.config cassandra_cache_size
 
 [cassandra_elasticinbox_latency]
 env.config cassandra_elasticinbox_latency
