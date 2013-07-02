@@ -1,0 +1,11 @@
+graph_title ElasticInbox POP3 Authentication Attempts
+graph_vlabel auth/${graph_period}
+graph_category ElasticInbox
+
+speed4j_elasticinbox_pop3_auth_success_count.label success
+speed4j_elasticinbox_pop3_auth_success_count.min 0
+speed4j_elasticinbox_pop3_auth_success_count.draw AREA
+
+speed4j_elasticinbox_pop3_auth_fail_count.label fail
+speed4j_elasticinbox_pop3_auth_fail_count.min 0
+speed4j_elasticinbox_pop3_auth_fail_count.draw STACK

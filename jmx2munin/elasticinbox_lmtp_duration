@@ -1,0 +1,7 @@
+graph_title ElasticInbox LMTP Delivery Duration 
+graph_vlabel seconds
+graph_category ElasticInbox
+
+speed4j_elasticinbox_lmtp_delivery_success_avg.label delivery duration
+speed4j_elasticinbox_lmtp_delivery_success_avg.min 0
+speed4j_elasticinbox_lmtp_delivery_success_avg.draw AREA
