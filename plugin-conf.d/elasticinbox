@@ -5,6 +5,9 @@ env.query *:*
 [elasticinbox_lmtp_delivery]
 env.config elasticinbox_lmtp_delivery
 
+[elasticinbox_pop3_auth]
+env.config elasticinbox_pop3_auth
+
 [elasticinbox_rest_conn]
 env.config elasticinbox_rest_conn
 
